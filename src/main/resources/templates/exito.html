@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tarea agregada existosamente</title>
+    <link rel="stylesheet" href="../static/css/exito.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="barra-navegacion">
+      <p>Gestor de Tareas</p>
+    </nav>
+    <div class="container">
+      <div class="tareas-mes">
+        <table>
+          <tr>
+            <th>Nombre tarea</th>
+            <th>Responsable</th>
+            <th>Estado</th>
+            <th>Clasificacion - prioridad</th>
+          </tr>
+          <tr>
+            <td>Nombre tarea</td>
+            <td>Responsable</td>
+            <td>Completado</td>
+            <td>Clasificacion - prioridad</td>
+          </tr>
+          <tr>
+            <td>Nombre tarea</td>
+            <td>Responsable: </td>
+            <td>Completado</td>
+            <td>Clasificacion - prioridad</td>
+          </tr>
+          <tr>
+            <td>Finalizar tarea</td>
+            <td>Responsable: </td>
+            <td>Completado</td>
+            <td>Clasificacion - prioridad</td>
+          </tr>
+        </table>
+      </div>
+      <div>
+
+      </div>
+      <h1>Tarea agregada existosamente</h1>
+      <p>Nombre de la tarea:</p>
+      <p th:text="${tarea.nombre}"></p>
+      <p>Descripción de la tarea:</p>
+      <p th:text="${tarea.descripcion}"></p>
+      <p>Fecha de creación:</p>
+      <p th:text="${tarea.fechaCreacion}"></p>
+      <p>Estado:</p>
+      <p th:text="${tarea.estado}"></p>
+      <a th:href="@{/agregarTarea}">Regresar al inicio</a>
+    </div>
+  </body>
+</html>

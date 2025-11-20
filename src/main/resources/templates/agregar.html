@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Agregar una tarea</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/agregar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="barra-navegacion">
+      <p>Gestor de Tareas</p>
+  </nav>
+<div class="container">
+  <h1 class="display-1 text-center">Agregar una tarea</h1>
+  <form action="/agregarTarea" method="POST">
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="floatingInput" name="nombre">
+        <label for="floatingInput">Nombre de la tarea</label>
+    </div>
+    <div class="form-floating">
+        <input type="text" class="form-control" id="floatingPassword" name="descripcion" >
+        <label for="floatingPassword">Descripción de la tarea</label>
+    </div>
+    <div class="container d-flex justify-content-center mt-3">
+      <button class="btn btn-primary fs-5" type="submit"> Enviar</button>
+    </div>
+</form>
+</body>
+</div>
+
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Tarea actualizada existosamente</title>
+</head>
+<body>
+<h1>Tarea actualizada existosamente</h1>
+<p>Nombre de la tarea: </p>
+<p th:text="${tarea.nombre}"></p>
+<p>Descripción de la tarea: </p>
+<p th:text="${tarea.descripcion}"></p>
+<p>Fecha de creación: </p>
+<p th:text="${tarea.fechaCreacion}"></p>
+<p>Estado: </p>
+<p th:text="${tarea.estado}"></p>
+<a th:href="@{/agregarTarea}">Regresar al inicio</a>
+</body>
+</html>

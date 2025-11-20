@@ -1,0 +1,22 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+.barra-navegacion{
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.barra-navegacion p{
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+
+.barra-navegacion p{
+  margin: 0;
+}
