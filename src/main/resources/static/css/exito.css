@@ -22,10 +22,45 @@
 }
 
 .container{
-  width: 70%;
+  width: 80%;
   margin : 0 auto;
 }
 
 .container h1{
   text-align: center;
+}
+
+.tareas-mes table{
+  border-collapse: collapse;
+  margin : 0 auto;
+  text-align: center;
+}
+
+.tareas-mes th{
+  background-color: rgb(223, 222, 222);
+  border:solid rgb(223, 222, 222) 1px;
+  padding: 5px;
+  color: rgb(32, 27, 27);
+}
+
+.tareas-mes td{
+  border:solid 1px gray;
+  padding: 5px;
+}
+
+.nombre-tarea{
+  width: 35%;
+}
+
+.estado-tarea{
+  color: white;
+}
+
+.fecha-tarea{
+  width: 15%;
+}
+
+.titulo-meses{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
