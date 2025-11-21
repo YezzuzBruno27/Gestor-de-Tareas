@@ -63,6 +63,10 @@ public class TareaController {
         return "exito_actualizar";
     }
 
+    @GetMapping("/listarTareas")
+    private String listarTareas(){
+        return "listar-tareas";
+    }
 
 
 }

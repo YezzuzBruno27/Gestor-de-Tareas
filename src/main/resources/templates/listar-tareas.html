@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8" />
     <title>Tarea agregada existosamente</title>
-    <link rel="stylesheet" href="../static/css/listar-tareas.css" />
+    <link rel="stylesheet" href="/css/listar-tareas.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -29,11 +29,11 @@
                 <td>2025-11-20</td>
                 <td style="background-color: green;" class="estado-tarea">Completado</td>
                 <td>
-                    <img src="../static/img/star20.png" alt="">
-                    <img src="../static/img/star20.png" alt="">
-                    <img src="../static/img/star20.png" alt="">
-                    <img src="../static/img/star20-gray.png" alt="">
-                    <img src="../static/img/star20-gray.png" alt="">
+                    <img src="img/star20.png" alt="">
+                    <img src="img/star20.png" alt="">
+                    <img src="img/star20.png" alt="">
+                    <img src="img/star20-gray.png" alt="">
+                    <img src="img/star20-gray.png" alt="">
                 </td>
             </tr>
             <tr>
@@ -42,11 +42,11 @@
                 <td>2025-11-20</td>
                 <td style="background-color: rgb(255, 199, 45);" class="estado-tarea">En Curso</td>
                 <td>
-                    <img src="../static/img/star20.png" alt="">
-                    <img src="../static/img/star20.png" alt="">
-                    <img src="../static/img/star20.png" alt="">
-                    <img src="../static/img/star20.png" alt="">
-                    <img src="../static/img/star20-gray.png" alt="">
+                    <img src="img/star20.png" alt="">
+                    <img src="img/star20.png" alt="">
+                    <img src="img/star20.png" alt="">
+                    <img src="img/star20-gray.png" alt="">
+                    <img src="img/star20-gray.png" alt="">
                 </td>
             </tr>
             <tr>
@@ -55,29 +55,16 @@
                 <td class="fecha-tarea">2025-11-20</td>
                 <td style="background-color: red;" class="estado-tarea">Detenido</td>
                 <td>
-                    <img src="../static/img/star20.png" alt="">
-                    <img src="../static/img/star20.png" alt="">
-                    <img src="../static/img/star20-gray.png" alt="">
-                    <img src="../static/img/star20-gray.png" alt="">
-                    <img src="../static/img/star20-gray.png" alt="">
+                    <img src="img/star20.png" alt="">
+                    <img src="img/star20.png" alt="">
+                    <img src="img/star20.png" alt="">
+                    <img src="img/star20-gray.png" alt="">
+                    <img src="img/star20-gray.png" alt="">
                 </td>
             </tr>
         </table>
         <h2 class="titulo-meses">Mes de Noviembre del 2025</h2>
     </div>
-    <div>
-
-    </div>
-    <h1>Tarea agregada existosamente</h1>
-    <p>Nombre de la tarea:</p>
-    <p th:text="${tarea.nombre}"></p>
-    <p>Descripción de la tarea:</p>
-    <p th:text="${tarea.descripcion}"></p>
-    <p>Fecha de creación:</p>
-    <p th:text="${tarea.fechaCreacion}"></p>
-    <p>Estado:</p>
-    <p th:text="${tarea.estado}"></p>
-    <a th:href="@{/agregarTarea}">Regresar al inicio</a>
 </div>
 </body>
 </html>
