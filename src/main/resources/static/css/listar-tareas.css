@@ -1,0 +1,66 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+.barra-navegacion{
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.barra-navegacion p{
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+
+.barra-navegacion p{
+  margin: 0;
+}
+
+.container{
+  width: 80%;
+  margin : 0 auto;
+}
+
+.container h1{
+  text-align: center;
+}
+
+.tareas-mes table{
+  border-collapse: collapse;
+  margin : 0 auto;
+  text-align: center;
+}
+
+.tareas-mes th{
+  background-color: rgb(223, 222, 222);
+  border:solid rgb(223, 222, 222) 1px;
+  padding: 5px;
+  color: rgb(32, 27, 27);
+}
+
+.tareas-mes td{
+  border:solid 1px gray;
+  padding: 5px;
+}
+
+.nombre-tarea{
+  width: 35%;
+}
+
+.estado-tarea{
+  color: white;
+}
+
+.fecha-tarea{
+  width: 15%;
+}
+
+.titulo-meses{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
